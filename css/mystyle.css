@@ -3,20 +3,38 @@
     text-align: center; 
     margin: auto; 
 }
+
 body { 
-    background-color: Lavender; 
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
 }
+
 .nav { 
-    background-color: Indigo; 
+    background: linear-gradient(135deg, #2b1055, #4b0082);
+    padding: 1.2%;
+    border-radius: 0 0 25px 25px;
+    box-shadow: 0px 10px 25px rgba(0,0,0,0.35);
 }
+
 .nav a { 
-    color: white; 
+    color: #f8f8ff; 
     text-decoration: none; 
     margin: 5%; 
+    font-weight: 600;
+    transition: all 0.3s ease;
 }
+
+.nav a:hover {
+    color: #ffd700;
+    transform: scale(1.1);
+}
+
 h2 { 
+    background: linear-gradient(135deg, #ffffff, #f0ecff);
     border: solid; 
     width: 70%; 
-    padding: 2%; 
-    border-radius: 30px; 
+    padding: 2.5%; 
+    border-radius: 35px; 
+    border-color: #4b0082;
+    color: #2b1055;
+    box-shadow: 0px 12px 28px rgba(0,0,0,0.25);
 }
